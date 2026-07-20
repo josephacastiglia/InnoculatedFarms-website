@@ -50,9 +50,11 @@ frameworks — deploy the folder anywhere.
 
 ## Wholesale & farm-pickup incentives
 
-- **Wholesale partners** section on the home page (`#wholesale`) — audience cards for
-  restaurants / meal-prep / corporate, a 3-step onboarding story, and an inquiry form
-  (posts to Formspree via `data-if-form`). The shop page's trade CTA links here.
+- **Wholesale** is its own page (`wholesale.html`) with its own nav tab — hero,
+  audience cards for restaurants / meal-prep / corporate, a 3-step onboarding story,
+  a terms-at-a-glance grid, and an inquiry form (posts to Formspree via
+  `data-if-form`). It is deliberately **not** mentioned anywhere on the home page;
+  the shop page's trade CTA links here.
 - **Farm-pickup nudges** steer customers toward the cheapest fulfillment for the farm:
   a "2× Points" badge on the subscribe page's pickup chip, a pickup nudge in the cart
   drawer, and a "Farm pickup · 2× points" earning card on the rewards page. The 2×

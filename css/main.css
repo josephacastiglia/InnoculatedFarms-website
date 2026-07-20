@@ -326,7 +326,7 @@ input, select, textarea { font: inherit; }
 .nav-toggle svg { width: 26px; height: 26px; }
 .nav-toggle .icon-close { display: none; }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .nav-toggle { display: grid; }
   .nav {
     position: fixed;
@@ -351,6 +351,8 @@ input, select, textarea { font: inherit; }
   body.nav-open .nav a:nth-child(3) { transition-delay: 180ms; }
   body.nav-open .nav a:nth-child(4) { transition-delay: 240ms; }
   body.nav-open .nav a:nth-child(5) { transition-delay: 300ms; }
+  body.nav-open .nav a:nth-child(6) { transition-delay: 360ms; }
+  body.nav-open .nav a:nth-child(7) { transition-delay: 420ms; }
   body.nav-open .nav-toggle .icon-open { display: none; }
   body.nav-open .nav-toggle .icon-close { display: block; }
   body.nav-open { overflow: hidden; }
@@ -1199,7 +1201,7 @@ body.cart-open { overflow: hidden; }
 
 .benefit-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);

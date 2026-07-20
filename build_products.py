@@ -386,6 +386,7 @@ def page(p):
         <a href="../index.html">Home</a>
         <a href="../shop.html" aria-current="page">The Harvest</a>
         <a href="../subscribe.html">Subscribe</a>
+        <a href="../wholesale.html">Wholesale</a>
         <a href="../sub-to-soil.html">Sub to Soil</a>
         <a href="../index.html#story">Our Story</a>
         <a href="../index.html#contact">Contact</a>
@@ -536,6 +537,7 @@ def page(p):
           <ul class="footer-links">
             <li><a href="../shop.html">The Harvest</a></li>
             <li><a href="../subscribe.html">Subscribe</a></li>
+            <li><a href="../wholesale.html">Wholesale</a></li>
             <li><a href="../rewards.html">Rewards</a></li>
             <li><a href="../referral.html">Refer a Friend</a></li>
             <li><a href="../sub-to-soil.html">Sub to Soil</a></li>
